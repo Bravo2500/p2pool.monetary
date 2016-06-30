@@ -53,7 +53,7 @@ nets = dict(
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
         WORKER_PORT=8963,
-        BOOTSTRAP_ADDRS=' '.split(' '),
+        BOOTSTRAP_ADDRS='p2pool.e-pool.net:29963 '.split(' '),
         ANNOUNCE_CHANNEL='#p2pool',
         VERSION_CHECK=lambda v: True,
     ),
